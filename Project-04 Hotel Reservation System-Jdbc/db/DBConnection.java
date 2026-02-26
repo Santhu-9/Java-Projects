@@ -15,7 +15,7 @@ public class DBConnection {
 
             String url = "jdbc:mysql://localhost:3306/hotel_db";
             String user = "root";
-            String password = "password";
+            String password = "your_password";
 
             con = DriverManager.getConnection(url,user,password);
 
@@ -30,3 +30,4 @@ public class DBConnection {
         return con;
     }
 }
+
